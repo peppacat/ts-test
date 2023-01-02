@@ -1,0 +1,22 @@
+{
+  "name": "js-component",
+  "version": "1.0.0",
+  "description": "demo connection to substrate node",
+  "main": "index.js",
+  "author": "chen",
+  "license": "no",
+  "private": false,
+  "scripts": {
+    "start": "node --use_strict index.js",
+    "start:dev": "nodemon --use_strict --inspect",
+    "strat:debug": "nodemon --use_strict --inspect"
+  },
+  "dependencies": {
+    "@polkadot/api": "^7.15.1",
+    "@polkadot/types": "^7.8.1",
+    "web3": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
